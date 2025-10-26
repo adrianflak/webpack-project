@@ -1,0 +1,42 @@
+:root {
+    --bg: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    --glass: rgba(255, 255, 255, 0.2);
+    --text: #fff;
+    --card-bg: rgba(255, 255, 255, 0.25);
+}
+body.dark {
+    --bg: linear-gradient(135deg, #2b1055 0%, #7597de 100%);
+    --glass: rgba(0, 0, 0, 0.3);
+    --text: #e0e0e0;
+    --card-bg: rgba(0, 0, 0, 0.25);
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1280px;
+    border: 1px solid #000;
+    background-color: var(--bg);
+    color: black;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+
+}
+.dark {
+    background-color: #cbcbcb;
+}
+.card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 20px;
+    background-color: var(--card-bg);
+}
+button {
+    color: #fff;
+    background-color: #000;
+}
+.stats {
+
+}
