@@ -17,9 +17,10 @@ jobs:
     - name: 'Wdrożenie do Microsoft Azure App Service'
       uses: azure/webapps-deploy@v3
       with: 
-        app-name:
+        app-name: webpack-test
         publish-profile: ${{secrets.azureWebAppPublishProfile}}
 
 
         
       
+
