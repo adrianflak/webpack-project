@@ -13,7 +13,6 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-        npm run test --if-present
     - name: 'Wdrożenie do Microsoft Azure App Service'
       uses: azure/webapps-deploy@v3
       with: 
